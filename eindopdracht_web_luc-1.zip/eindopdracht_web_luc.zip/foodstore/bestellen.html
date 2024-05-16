@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+   <link rel="stylesheet" href="../css/peter.css">
+   <link rel="stylesheet" href="../css/menu.css">
+   <meta charset="UTF-8">
+   <title>ons menu </title>
+</head>
+
+<body>
+   <h1>Bestelformulier</h1>
+   <form action="bestel.php" method="GET">
+      <table>
+         <tr>
+            <th>Menu</th>
+            <th>Prijs</th>
+            <th>Aantal</th>
+         </tr>
+         <tr>
+            <td>
+               <a href="menu.html#tonijnsalade">Tonijnsalade</a>
+            </td>
+            <td>
+               &euro; 5,00
+            </td>
+            <td>
+               <input name="aantaltonijn" type="text" maxlength="2">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <a href="menu.html#kipkerrie">Kip-Kerrie Salade</a>
+            </td>
+            <td>
+               &euro; 10,00
+            </td>
+            <td>
+               <input name="aantalkipkerrie" type="text" maxlength="2" value="0">
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <a href="menu.html#caesar">Caesar-salade</a>
+            </td>
+            <td>
+               &euro; 10,00
+            </td>
+            <td>
+               <input name="aantalcaesar" type="text" maxlength="2" value="0">
+            </td>
+         </tr>
+      </table>
+      <input type="submit" value="Bestellen">
+   </form>
+   <footer>
+      <div id="voet" > <span><i>peters foodstore</i></span> hoofdstraat 25, 6666 tr boekel tel. <span><i>0800-FOODSTORE </i></span></div>
+      </footer>
+</body>
+
+</html>
